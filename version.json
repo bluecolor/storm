@@ -1,0 +1,11 @@
+{
+  "name": "Storm 2.0.1",
+  "version": "2.0.1",
+  "releaseDate": "2016.03.01",
+  "major": false,
+  "changes": [
+    "Tip of the day",
+    "Check for updates",
+    "Welcome screen"
+  ]
+}

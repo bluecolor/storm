@@ -1,0 +1,9 @@
+#!/bin/bash
+
+coffee -o api/lib -c api/lib/src
+coffee -o api/error -c api/error/src
+coffee -o api/message -c api/message/src
+coffee -o . storm.coffee
+
+
+node storm.js $*

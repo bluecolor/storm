@@ -1,0 +1,391 @@
+
+.x-mask-msg {
+    background: transparent !important;
+}
+.x-mask-msg .custom-loader .x-mask-msg-text {
+    background-image: url(../img/loader/squares.gif);
+}
+
+/*.x-mask-msg-text{*/
+    /*width: 200px  !important;;*/
+    /*height: 200px !important;*/
+/*}*/
+
+.ace-editor {
+    margin: 0;
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+}
+
+.inactive .x-grid-cell{
+    background-color: #f6fafb !important;
+}
+
+.excluded .x-grid-cell{
+    background-color: #f5ffde !important;
+}
+
+.super-user .x-grid-cell{
+    background-color: #FFFFD0 !important;
+}
+
+
+.non-primary-group {
+    color : #757D75;
+    font-weight: bold;
+}
+
+.session-status {
+    font-weight: bold;
+}
+
+.session-snapshot {
+    cursor: pointer;
+}
+
+.session-snapshot:hover {
+    text-decoration: underline;
+}
+
+
+.snapshot-status-count{
+    cursor: pointer;
+}
+
+.error-count {
+    font-weight: bold;
+}
+
+
+.task-group {
+    cursor: pointer;
+}
+
+.task-group:hover {
+    font-size: larger;
+    color: #DB5A6B;
+}
+
+.primary-group {
+    color: #DB5A6B;
+    font-weight: bold;
+}
+
+.slick-btn{
+    background-color: white !important;
+    border-color: #3892d4!important;
+}
+
+.slick-btn:hover {
+    border-color: #F08F90!important;
+}
+.slick-btn:hover .x-btn-inner-default-large {
+    color: #F08F90!important;
+}
+
+.slick-btn .x-btn-inner-default-large  {
+    color: #3892d4!important;
+}
+
+.slick-btn .x-btn-inner-default-medium{
+    color: #3892d4!important;
+}
+
+
+.welcome-text{
+    font-size: 22px !important;
+    color: #A48B8B;
+}
+
+.nav-no-session{
+    font-size: 16px !important;
+    color: #A48B8B;
+}
+
+.tiny-list{
+}
+
+.tiny-list .x-column-header{
+    border-right: none !important;
+}
+
+.tiny-list .x-column-header-over, .x-column-header-sort-ASC, .x-column-header-sort-DESC{
+    background-color: transparent !important;
+}
+
+.popover {
+    z-index: 999999 !important;
+}
+
+.node {
+    cursor: pointer;
+}
+.overlay {
+    background-color:#EEE;
+}
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+.node text {
+    font-size:10px;
+    font-family:sans-serif;
+}
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+.templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+}
+.ghostCircle.show {
+    display:block;
+}
+.ghostCircle, .activeDrag .ghostCircle {
+    display: none;
+}
+
+.colored-btn, .x-btn {
+    text-decoration: none !important;
+}
+
+.account-menu-name {
+    font-weight: bold;
+}
+
+
+.btn-sign-out{
+    background-color:#D9534F ;
+    border-color:#D9534F  ;
+    width: 100%;
+}
+
+.btn-sign-out:hover{
+    background-color: #d94039;
+    border-color:#d94039;
+}
+
+.card .x-panel-header-default-framed,.x-panel-header-default-framed-top {
+    background-color: transparent;
+    border-bottom-color: white;
+}
+
+.scheduler-card .x-panel-header-default{
+    background-color: #ffffff !important;
+}
+
+.scheduler-card:hover{
+    border-color: #3498db !important;
+}
+
+.scheduler-card-selected{
+    border-color: #3498db !important;
+}
+
+
+.scheduler-card .x-panel-header-default-framed {
+    /*border: 1px solid #ffffff;*/
+    border-color: #ffffff;
+}
+
+.scheduler-detail  .x-panel-body{
+    padding: 0 !important;
+}
+
+.scheduler-detail .x-tab-bar-default,.x-panel-header-default{
+    background-color: white;
+}
+
+.north-navbar .x-toolbar-default {
+    background-color: #FdFdFd !important;
+}
+
+
+.account-menu-photo .x-img-default {
+    height: 128px !important;
+}
+
+.solar-dark .x-form-cb-label {
+    color: #5A5151 !important;
+}
+
+.emph {
+    color: #9d8d8d !important;
+    font-weight: bold;
+}
+
+.update-check .x-autocontainer-innerCt{
+    padding: 0 20px 20px 10px !important;
+}
+
+.sch-status-text {
+    font-weight: bold;
+}
+
+.running {
+    color: #428BCA;
+}
+
+.ready, .idle {
+    color: #FFB505;
+}
+
+.error {
+    color: #F30021;
+}
+
+.not-running {
+    color: #757D75;
+}
+
+.red-text .x-btn-inner{
+    color: #990000 !important;
+}
+
+.blue-text .x-btn-inner{
+    color: #2B8BD1 !important;
+    font-weight: bold !important;
+}
+
+.error-bell .x-btn-inner{
+    color: #990000 !important;
+}
+
+
+.error-bell:focus{
+    color: transparent  !important;
+    box-shadow: none  !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.graph-sess-combo{
+    width: 300px !important;
+}
+
+/*schedule expression rail-road*/
+svg.railroad-diagram{
+    background-color: white !important;
+}
+
+.non-terminal rect{
+    fill: #fffbca !important;
+}
+
+.non-terminal text{
+    cursor: pointer !important;
+}
+
+.expression-desc {
+    font-size: 17px;
+    color: #9d8d8d !important;
+}
+
+
+
+.x-grid-view{
+    overflow-x: hidden !important;
+}
+
+.x-grid-item {
+    color : #4C525D !important;
+}
+
+.x-panel-header-title-default>.x-title-text-default:after {
+    content: '' !important;
+}
+
+.x-window-header-title-default>.x-title-text-default:after {
+    content: '' !important;
+}
+
+.x-panel-header-title-default-framed > .x-title-text-default-framed:after {
+    content: '' !important;
+}
+
+/*!*this should be default seems to be missing after upgrade*!*/
+.x-splitter {
+    background-color: rgb(206, 206, 206);
+}
+
+.x-btn-default-toolbar-small {
+    background-color: white !important;
+}
+
+
+.x-btn-default-toolbar-small {
+    border-color: #FFFFFF !important;
+}
+
+.x-btn-default-toolbar-small:hover {
+    border-color: #C1DDF1 !important;
+}
+.x-grid-item-selected {
+    background-color: #FFEFBB !important;
+}
+
+
+
+.x-btn-default-toolbar-large {
+    border-color: #d6e7f3;
+    background-color: #ffffff;
+}
+
+.x-btn-default-toolbar-large:hover {
+    border-color: #3498db;
+    background-color: #ffffff;
+}
+
+.x-btn-default-toolbar-large:active {
+    background-color: #d6e7f3 !important;
+}
+
+.x-btn-default-toolbar-large:focus{
+    background-color: #ffffff !important;
+}
+
+
+.x-panel-header-default {
+    background-color: #fdfdfd;
+}
+
+
+.x-window-header-default-top {
+    background-color: transparent !important;
+}
+
+.x-toolbar-footer {
+    background-color: transparent !important;
+}
+
+.x-tip-default {
+    background-color: #FFFFEF !important;
+}
+
+.x-tab-bar-default {
+    background-color: white !important;
+}
+
+
+.x-tab-default{
+    border-color: #89C4F4
+}
+
+.x-tab-default-top,.x-tab-default-bottom, .x-tab-default-left,.x-tab-default-right{
+    background-color: white;
+}

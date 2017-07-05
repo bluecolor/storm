@@ -1,0 +1,38 @@
+ /* var tasks = req.param('tasks').split(',');
+        var fields= [
+            'Name'
+            //todo add other fields
+        ];
+
+
+
+        Task.find({id:tasks})
+            .populateAll()
+            .then(function(tasks){
+                var data = [];
+                var plan = undefined;
+                tasks.forEach(function(task){
+                    data.push({
+                        "Name" : task.name
+                        //todo add other fields
+                    });
+                });
+
+                if(tasks && tasks.length > 0){
+                    plan = tasks[0].plan.name;
+                }
+
+                var config = {
+                    fields  : fields,
+                    data    : data
+                };
+
+                var sendcsv = function(err, csv){
+                    if(err){console.log(err);}
+                    var date = moment().format('YYYYMMDDHHmmss');
+                    res.attachment(util.format("TASKS_%s_%s.csv",plan,date));
+                    res.end(csv, 'UTF-8');
+                };
+
+                json2csv(config, sendcsv);
+            });*/
